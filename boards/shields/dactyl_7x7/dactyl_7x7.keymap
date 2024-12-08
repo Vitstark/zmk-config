@@ -18,7 +18,7 @@
                 &none       &kp CAPS    &kp A       &kp S       &kp D       &kp F       &kp G      &kp H       &kp J       &kp K       &kp L        &kp SEMI    &kp ENTER   &none
                 &none       &kp LSHFT   &kp Z       &kp X       &kp C       &kp V       &kp B      &kp N       &kp M       &kp LT      &kp GT       &kp SLASH   &kp APOS    &kp RSHIFT
                 &none       &kp LCTRL   &kp LWIN    &kp LEFT    &kp RIGHT   &kp SPACE   &none      &none       &none       &kp UP      &kp DOWN     &kp MINUS   &kp EQUAL   &none
-                                                                &kp LCTRL   &kp LALT    &none
+                &none       &none       &none       &none       &kp LCTRL   &kp LALT    &none      &none       &none       &none       &none        &none       &none       &none
             >;
         };
     };
