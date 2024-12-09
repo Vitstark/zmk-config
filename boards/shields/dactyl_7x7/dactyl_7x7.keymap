@@ -6,15 +6,51 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        default_layer { // Layer 0
             bindings = <
                 &kp ESC     &kp F1      &kp F2      &kp F3      &kp F4      &kp F5      &kp F6          &kp F7      &kp F8      &kp F9      &kp F10      &kp F11     &kp F12     &kp PSCRN
                 &none       &kp GRAVE   &kp N1      &kp N2      &kp N3      &kp N4      &kp N5          &kp N6      &kp N7      &kp N8      &kp N9       &kp N0      &kp BSLH    &none
-                &none       &kp TAB     &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O        &kp P       &kp BSPC    &none
+                &tog 1      &kp TAB     &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O        &kp P       &kp BSPC    &none
+                &tog 2      &kp CAPS    &kp A       &kp S       &kp D       &kp F       &kp G           &kp H       &kp J       &kp K       &kp L        &kp SEMI    &kp ENTER   &none
+                &none       &kp LSHFT   &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT      &kp SLASH   &kp SQT     &kp RSHIFT
+                &none       &kp LCTRL   &kp LGUI    &kp LEFT    &kp RIGHT   &kp SPACE   &none           &lt 2 GLOBE &none       &kp UP      &kp DOWN     &kp MINUS   &kp EQUAL   &none
+                                                                &kp LEFT_CONTROL &kp LALT &none
+            >;
+        };
+
+        mac_os_layer { // Layer 1
+            bindings = <
+                &kp ESC     &kp F1      &kp F2      &kp F3      &kp F4      &kp F5      &kp F6          &kp F7      &kp F8      &kp F9      &kp F10      &kp F11     &kp F12     &kp PSCRN
+                &none       &kp GRAVE   &kp N1      &kp N2      &kp N3      &kp N4      &kp N5          &kp N6      &kp N7      &kp N8      &kp N9       &kp N0      &kp BSLH    &none
+                &trans      &kp TAB     &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O        &kp P       &kp BSPC    &none
                 &none       &kp CAPS    &kp A       &kp S       &kp D       &kp F       &kp G           &kp H       &kp J       &kp K       &kp L        &kp SEMI    &kp ENTER   &none
                 &none       &kp LSHFT   &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT      &kp SLASH   &kp SQT     &kp RSHIFT
-             &studio_unlock &kp LCTRL   &kp LWIN    &kp LEFT    &kp RIGHT   &kp SPACE   &none           &kp GLOBE   &none       &kp UP      &kp DOWN     &kp MINUS   &kp EQUAL   &none
+                &none       &kp LCTRL   &kp LWIN    &kp LEFT    &kp RIGHT   &kp SPACE   &none           &lt 2 GLOBE &none       &kp UP      &kp DOWN     &kp MINUS   &kp EQUAL   &none
+                                                                &kp LGUI    &kp LALT    &none
+            >;
+        };
+
+        gaming_layer { // Layer 2
+            bindings = <
+                &kp ESC     &none       &kp F1      &kp F2      &kp F3      &kp F4      &kp F5      &kp F6          &kp F7      &kp F8      &kp F9      &kp F10      &kp F11     &kp F12
+                &none       &none       &kp GRAVE   &kp N1      &kp N2      &kp N3      &kp N4      &kp N5          &kp N6      &kp N7      &kp N8      &kp N9       &kp N0      &kp BSLH
+                &none       &none       &kp TAB     &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O        &kp P       &kp BSPC
+                &trans      &none       &kp CAPS    &kp A       &kp S       &kp D       &kp F       &kp G           &kp H       &kp J       &kp K       &kp L        &kp SEMI    &kp ENTER
+                &none       &none       &kp LSHFT   &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT      &kp SLASH   &kp SQT
+                &none       &none       &kp LCTRL   &kp LGUI    &kp LEFT    &kp RIGHT   &kp SPACE   &none           &lt 2 GLOBE &none       &kp UP      &kp DOWN     &kp MINUS   &kp EQUAL
                                                                 &kp LEFT_CONTROL &kp LALT &none
+            >;
+        };
+
+        fn_layer { // Layer 2
+        bindings = <
+                &kp ESC     &kp C_BRI_DN &kp C_BRI_UP &kp F3      &kp F4      &kp F5      &kp F6          &kp F7      &kp F8      &kp F9      &kp C_MUTE   &kp C_VOL_DN &kp C_VOL_UP &kp PSCRN
+                &none       &kp GRAVE    &kp N1       &kp N2      &kp N3      &kp N4      &kp N5          &kp N6      &kp N7      &kp N8      &kp N9       &kp N0       &kp BSLH     &none
+                &none       &kp TAB      &kp Q        &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O        &kp P        &kp DEL      &none
+                &none       &kp CAPS     &kp A        &kp S       &kp D       &kp F       &kp G           &kp H       &kp J       &kp K       &kp L        &kp SEMI     &kp ENTER    &none
+                &none       &kp LSHFT    &kp Z        &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT      &kp SLASH    &kp SQT      &kp RSHIFT
+                &none       &kp LCTRL    &kp LGUI     &kp LEFT    &kp RIGHT   &kp SPACE   &none           &trans      &none       &kp UP      &kp DOWN     &kp MINUS    &kp EQUAL    &studio_unlock
+                                                                  &kp LEFT_CONTROL &kp LALT &none
             >;
         };
     };
