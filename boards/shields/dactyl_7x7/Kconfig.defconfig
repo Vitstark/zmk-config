@@ -29,8 +29,5 @@ if DACTYL_LEFT || DACTYL_RIGHT
     config ZMK_SPLIT
         default y
 
-    config ZMK_SPLIT_BLE
-        default y
-
 endif
 
