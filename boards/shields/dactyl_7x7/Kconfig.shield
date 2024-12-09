@@ -13,6 +13,6 @@ config DACTYL_RIGHT
     def_bool $(shields_list_contains, dactyl_7x7_right)
 
 # This will set the DACTYL_LEFT flag to y whenever dactyl_7x7_left is used as the shield name.
-# Likewise, when dactyl_7x7_right is used as the shield name DACTYL_RIGHT    flag is set to y.
+# Likewise, when dactyl_7x7_right is used as the shield name DACTYL_RIGHT flag is set to y.
 # The DACTYL_LEFT and DACTYL_RIGHT flags will be used in
 # Kconfig.defconfig to set other properties about your shields, so make sure that they match.
