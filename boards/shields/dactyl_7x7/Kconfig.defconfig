@@ -38,5 +38,7 @@ if DACTYL_LEFT || DACTYL_RIGHT
     config ZMK_BLE
         default y
 
+    config ZMK_BLE_EXPERIMENTAL_CONN
+        default y
 endif
 
