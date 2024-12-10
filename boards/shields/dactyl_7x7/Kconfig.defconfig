@@ -29,5 +29,14 @@ if DACTYL_LEFT || DACTYL_RIGHT
     config ZMK_SPLIT
         default y
 
+    config BT
+        default y
+
+    config BT_BAS
+        default y
+
+    config ZMK_BLE
+        default y
+
 endif
 
