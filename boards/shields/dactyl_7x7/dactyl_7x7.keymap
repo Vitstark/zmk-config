@@ -14,8 +14,8 @@
                 &tog 1       &kp TAB     &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O        &kp P       &kp BSPC    &out OUT_BLE
                 &tog 2       &kp CAPS    &kp A       &kp S       &kp D       &kp F       &kp G           &kp H       &kp J       &kp K       &kp L        &kp SEMI    &kp ENTER   &none
                 &bt BT_SEL 0 &kp LSHFT   &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT      &kp SLASH   &kp APOS    &kp RSHIFT
-                &bt BT_CLR   &out OUT_BLE &kp LGUI    &kp LEFT   &kp RIGHT   &kp SPACE   &none           &lt 3 GLOBE &none       &kp DOWN    &kp UP       &kp MINUS   &kp EQUAL   &none
-                                                                 &kp LCTRL   &kp LALT    &none
+                &bt BT_CLR   &kp LCTRL   &kp LGUI    &kp LEFT    &kp RIGHT   &kp SPACE   &none           &lt 3 GLOBE &none       &kp DOWN    &kp UP       &kp MINUS   &kp EQUAL   &none
+                                                                 &kp LC()    &kp LALT    &none
             >;
         };
 
@@ -51,7 +51,7 @@
                 &none       &kp CAPS     &kp A        &kp S        &kp D        &kp F        &kp G           &kp H       &kp J       &kp K       &kp L        &kp SEMI     &kp ENTER    &none
                 &sys_reset  &kp LSHFT    &kp Z        &kp X        &kp C        &kp V        &kp B           &kp N       &kp M       &kp COMMA   &kp DOT      &kp SLASH    &kp APOS     &sys_reset
                 &none       &none        &kp LGUI     &kp LEFT     &kp RIGHT    &kp SPACE    &none           &trans      &none       &kp DOWN    &kp UP       &kp MINUS    &kp EQUAL    &studio_unlock
-                                                                   &kp LCTRL    &kp LALT     &kp LEFT_CONTROL
+                                                                   &kp LCTRL    &kp LALT     &none
             >;
         };
     };
