@@ -13,7 +13,7 @@
 # For that side, the keyboard name is assigned and the central config is set.
 # The peripheral side is not assigned a name. Finally, the split config needs to be set for both sides:
 
-if DACTYL_LEFT
+if DACTYL_RIGHT
 
 # Name must be less than 16 characters long!
     config ZMK_KEYBOARD_NAME

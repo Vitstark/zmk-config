@@ -23,10 +23,6 @@
 
 #include "dactyl_7x7.dtsi"
 
-&default_transform { // Offset of 3 because the left side has 3 columns
-	col-offset = <0>;
-};
-
 &kscan0 {
 	col-gpios
 	= <&pro_micro 9 GPIO_ACTIVE_HIGH>
