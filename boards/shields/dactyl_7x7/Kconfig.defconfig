@@ -1,44 +1,20 @@
-# Kconfig.defconfig to set other properties about your shields, so make sure that they match.
-
-# Kconfig.defconfig
-# The Kconfig.defconfig file is used to set new defaults for configuration settings
-# when this shield is used.
-# One main item that usually has a new default value set here is the ZMK_KEYBOARD_NAME value,
-# which controls the display name of the device over USB and BLE.
-
-# The updated new default values should always be wrapped inside a conditional on the
-# shield config name defined in the Kconfig.shield file.
-
-# For split keyboards, a central side (usually the left) is specified via the configuration in this file.
-# For that side, the keyboard name is assigned and the central config is set.
-# The peripheral side is not assigned a name. Finally, the split config needs to be set for both sides:
-
 if DACTYL_LEFT
 
-# Name must be less than 16 characters long!
-    config ZMK_KEYBOARD_NAME
-        default "DACTYL"
+config ZMK_KEYBOARD_NAME
+    default "DACTYL"
 
-    config ZMK_SPLIT_ROLE_CENTRAL
-        default y
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
 
 endif
 
 if DACTYL_LEFT || DACTYL_RIGHT
 
-    config ZMK_SPLIT
-        default y
+config ZMK_SPLIT
+    default y
 
-    config BT
-        default y
+config ZMK_BLE_EXPERIMENTAL_CONN
+    default y
 
-    config BT_BAS
-        default y
-
-    config ZMK_BLE
-        default y
-
-    config ZMK_BLE_EXPERIMENTAL_CONN
-        default y
 endif
 
