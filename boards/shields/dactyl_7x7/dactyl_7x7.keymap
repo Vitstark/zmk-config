@@ -13,7 +13,7 @@
                 &out OUT_USB &kp GRAVE   &kp N1      &kp N2      &kp N3      &kp N4      &kp N5          &kp N6      &kp N7      &kp N8      &kp N9       &kp N0      &kp BSLH    &out OUT_USB
                 &tog 1       &kp TAB     &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O        &kp P       &kp BSPC    &out OUT_BLE
                 &tog 2       &kp CAPS    &kp A       &kp S       &kp D       &kp F       &kp G           &kp H       &kp J       &kp K       &kp L        &kp SEMI    &kp ENTER   &none
-                &bt BT_SEL 0 &kp LSHFT   &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT      &kp SLASH   &kp APOS    &kp RSHIFT
+                &bt BT_SEL 0 &kp LSHFT   &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT      &kp SLASH   &kp RSHIFT  &none
                 &bt BT_CLR   &kp LCTRL   &kp LGUI    &kp LEFT    &kp RIGHT   &kp SPACE   &none           &lt 3 GLOBE &none       &kp DOWN    &kp UP       &kp MINUS   &kp EQUAL   &none
                                                                  &kp LCTRL   &kp LALT    &none
             >;
@@ -46,9 +46,9 @@
         fn_layer { // Layer 3
             bindings = <
                 &kp ESC     &kp C_BRI_DN &kp C_BRI_UP &trans       &trans       &trans       &trans          &trans       &trans      &trans      &kp C_MUTE   &kp C_VOL_DN &kp C_VOL_UP &trans
-                &bt BT_CLR  &trans       &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &trans          &bt BT_SEL 0 &trans      &trans      &kp MINUS    &kp EQUAL    &trans       &none
+                &bt BT_CLR  &trans       &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &trans          &bt BT_SEL 0 &trans      &trans      &trans       &kp MINUS    &kp EQUAL    &trans
                 &none       &trans       &trans       &trans       &trans       &trans       &trans          &trans       &trans      &trans      &kp LBKT     &kp RBKT     &kp DEL      &none
-                &none       &trans       &trans       &trans       &trans       &trans       &trans          &trans       &trans      &trans      &trans       &trans       &trans       &none
+                &none       &trans       &trans       &trans       &trans       &trans       &trans          &trans       &trans      &trans      &trans       &kp APOS     &trans       &none
                 &sys_reset  &trans       &trans       &trans       &trans       &trans       &trans          &trans       &trans      &trans      &trans       &trans       &trans       &sys_reset
                 &none       &trans       &trans       &trans       &trans       &trans       &trans          &trans       &trans      &trans      &trans       &trans       &trans       &studio_unlock
                                                                    &trans       &trans       &trans
