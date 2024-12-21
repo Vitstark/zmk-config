@@ -4,6 +4,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/pointing.h>
 
 
 / {
@@ -54,6 +55,18 @@
                 &none       &trans       &trans       &trans       &trans       &trans       &trans          &trans       &trans      &trans      &trans       &kp APOS     &trans       &none
                 &sys_reset  &trans       &trans       &trans       &trans       &trans       &trans          &trans       &trans      &trans      &trans       &trans       &trans       &sys_reset
                 &none       &trans       &trans       &trans       &trans       &trans       &trans          &trans       &trans      &trans      &trans       &trans       &trans       &none
+                                                                   &trans       &trans       &trans
+            >;
+        };
+
+        mouse { // Layer 3
+        bindings = <
+                &trans      &trans       &trans       &trans       &trans       &trans       &trans          &trans       &trans      &trans      &trans       &trans       &trans       &trans
+                &trans      &trans       &trans       &trans       &trans       &trans       &trans          &trans       &trans      &trans      &trans       &trans       &trans       &trans
+                &trans      &trans       &trans       &trans       &trans       &trans       &trans          &trans       &trans      &trans      &trans       &trans       &trans       &trans
+                &trans      &trans       &trans       &trans       &trans       &trans       &trans          &trans       &mkp LCLK   &mkp RCLK   &mkp MCLK    &trans       &trans       &trans
+                &trans      &trans       &trans       &trans       &trans       &trans       &trans          &trans       &trans      &trans      &trans       &trans       &trans       &trans
+                &trans      &trans       &trans       &trans       &trans       &trans       &trans          &trans       &trans      &trans      &trans       &trans       &trans       &trans
                                                                    &trans       &trans       &trans
             >;
         };
