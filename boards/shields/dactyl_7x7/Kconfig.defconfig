@@ -1,4 +1,4 @@
-if DACTYL_LEFT
+if DACTYL_RIGHT
 
 config ZMK_KEYBOARD_NAME
     default "DACTYL"
