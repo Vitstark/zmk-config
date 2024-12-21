@@ -22,6 +22,7 @@
 // which is included into each of the shield overlays.
 
 #include "dactyl_7x7.dtsi"
+#include "trackball.dtsi"
 
 &default_transform {
 	col-offset = <7>;
