@@ -19,7 +19,7 @@
                 &tog 2       &kp CAPS    &kp A       &kp S       &kp D       &kp F       &kp G           &kp H       &kp J       &kp K       &kp L        &kp SEMI    &kp ENTER   &none
                 &bt BT_SEL 0 &kp LSHFT   &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT      &kp SLASH   &kp RSHIFT  &none
                 &bt BT_CLR   &kp LCTRL   &kp LGUI    &kp LEFT    &kp RIGHT   &kp SPACE   &mo 3           &mo 3       &trans      &kp DOWN    &kp UP       &kp BSLH    &kp EQUAL   &none
-                                                                 &kp LCTRL   &kp LALT    &none
+                                                                 &kp LCTRL   &kp LALT    &mo 4
             >;
         };
 
@@ -59,7 +59,7 @@
             >;
         };
 
-        mouse { // Layer 3
+        mouse { // Layer 4
         bindings = <
                 &trans      &trans       &trans       &trans       &trans       &trans       &trans          &trans       &trans      &trans      &trans       &trans       &trans       &trans
                 &trans      &trans       &trans       &trans       &trans       &trans       &trans          &trans       &trans      &trans      &trans       &trans       &trans       &trans
