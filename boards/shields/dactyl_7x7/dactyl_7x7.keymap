@@ -50,7 +50,7 @@
                 &none       &trans       &trans       &trans       &trans       &trans       &trans          &trans       &trans      &trans      &kp LBKT     &kp RBKT     &kp DEL      &none
                 &none       &trans       &trans       &trans       &trans       &trans       &trans          &trans       &trans      &trans      &trans       &kp APOS     &trans       &none
                 &sys_reset  &trans       &trans       &trans       &trans       &trans       &trans          &trans       &trans      &trans      &trans       &trans       &trans       &sys_reset
-                &none       &trans       &trans       &trans       &trans       &trans       &trans          &trans       &trans      &trans      &trans       &trans       &trans       &studio_unlock
+                &none       &trans       &trans       &trans       &trans       &trans       &trans          &trans       &trans      &trans      &trans       &trans       &trans       &trans
                                                                    &trans       &trans       &trans
             >;
         };
