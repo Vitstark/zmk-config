@@ -60,7 +60,19 @@
         };
 
         mouse { // Layer 4
-        bindings = <
+            bindings = <
+                &trans      &trans       &trans       &trans       &trans       &trans       &trans          &trans       &trans      &trans      &trans       &trans       &trans       &trans
+                &trans      &trans       &trans       &trans       &trans       &trans       &trans          &trans       &trans      &trans      &trans       &trans       &trans       &trans
+                &trans      &trans       &trans       &trans       &trans       &trans       &trans          &trans       &trans      &trans      &trans       &trans       &trans       &trans
+                &trans      &trans       &trans       &trans       &trans       &trans       &trans          &trans       &mkp LCLK   &mkp RCLK   &mkp MCLK    &tog 5       &trans       &trans
+                &trans      &trans       &trans       &trans       &trans       &trans       &trans          &trans       &trans      &trans      &trans       &trans       &trans       &trans
+                &trans      &trans       &trans       &trans       &trans       &trans       &trans          &trans       &trans      &trans      &trans       &trans       &trans       &trans
+                                                                   &trans       &trans       &trans
+            >;
+        };
+
+        scroll { // Layer 5
+            bindings = <
                 &trans      &trans       &trans       &trans       &trans       &trans       &trans          &trans       &trans      &trans      &trans       &trans       &trans       &trans
                 &trans      &trans       &trans       &trans       &trans       &trans       &trans          &trans       &trans      &trans      &trans       &trans       &trans       &trans
                 &trans      &trans       &trans       &trans       &trans       &trans       &trans          &trans       &trans      &trans      &trans       &trans       &trans       &trans
