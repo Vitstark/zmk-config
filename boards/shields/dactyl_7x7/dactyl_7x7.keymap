@@ -11,7 +11,7 @@
             bindings = <
                 &kp ESC      &kp F1      &kp F2      &kp F3      &kp F4      &kp F5      &kp F6          &kp F7      &kp F8      &kp F9      &kp F10      &kp F11     &kp F12     &kp PSCRN
                 &out OUT_BLE &kp GRAVE   &kp N1      &kp N2      &kp N3      &kp N4      &kp N5          &kp N6      &kp N7      &kp N8      &kp N9       &kp N0      &kp EQUAL   &out OUT_BLE
-                &tog 1       &kp TAB     &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O        &kp P       &kp BSPC    &out OUT_OUT
+                &tog 1       &kp TAB     &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O        &kp P       &kp BSPC    &out OUT_USB
                 &tog 2       &kp CAPS    &kp A       &kp S       &kp D       &kp F       &kp G           &kp H       &kp J       &kp K       &kp L        &kp SEMI    &kp ENTER   &none
                 &bt BT_SEL 0 &kp LSHFT   &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT      &kp SLASH   &kp RSHIFT  &none
                 &bt BT_CLR   &kp LCTRL   &kp LGUI    &kp LEFT    &kp RIGHT   &kp SPACE   &none           &lt 3 GLOBE &none       &kp DOWN    &kp UP       &kp BSLH    &kp EQUAL   &none
