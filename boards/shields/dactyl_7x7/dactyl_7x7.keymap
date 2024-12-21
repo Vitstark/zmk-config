@@ -64,7 +64,7 @@
                 &trans      &trans       &trans       &trans       &trans       &trans       &trans          &trans       &trans      &trans      &trans       &trans       &trans       &trans
                 &trans      &trans       &trans       &trans       &trans       &trans       &trans          &trans       &trans      &trans      &trans       &trans       &trans       &trans
                 &trans      &trans       &trans       &trans       &trans       &trans       &trans          &trans       &trans      &trans      &trans       &trans       &trans       &trans
-                &trans      &trans       &trans       &trans       &trans       &trans       &trans          &trans       &mkp LCLK   &mkp RCLK   &mkp MCLK    &mo 5       &trans       &trans
+                &trans      &trans       &trans       &trans       &trans       &trans       &trans          &trans       &mkp LCLK   &mkp MCLK   &mkp RCLK    &mo 5       &trans       &trans
                 &trans      &trans       &trans       &trans       &trans       &trans       &trans          &trans       &trans      &trans      &trans       &trans       &trans       &trans
                 &trans      &trans       &trans       &trans       &trans       &trans       &trans          &trans       &trans      &trans      &trans       &trans       &trans       &trans
                                                                    &trans       &trans       &trans
