@@ -36,7 +36,7 @@
                 &trans      &trans      &trans      &trans      &trans      &trans      &trans          &trans      &trans      &trans      &trans       &trans      &trans      &trans
                 &trans      &trans      &trans      &trans      &trans      &trans      &trans          &trans      &trans      &trans      &trans       &trans      &kp MINUS   &trans
                 &trans      &trans      &trans      &trans      &trans      &trans      &trans          &trans      &trans      &trans      &kp LBKT     &kp RBKT    &kp DEL     &trans
-                &trans      &trans      &trans      &trans      &trans      &trans      &trans          &trans      &trans      &trans      &trans       &trans      &trans      &trans
+                &trans      &trans      &trans      &trans      &trans      &trans      &trans          &trans      &trans      &trans      &trans       &kp APOS    &trans      &trans
                 &trans      &trans      &trans      &trans      &trans      &trans      &trans          &trans      &trans      &trans      &trans       &trans      &trans      &trans
                 &trans      &trans      &trans      &trans      &trans      &trans      &trans          &trans      &trans      &trans      &trans       &trans      &trans      &trans
                                                                 &trans      &trans      &trans
