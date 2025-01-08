@@ -19,4 +19,12 @@
 	, <&pro_micro 16 GPIO_ACTIVE_HIGH>
 	, <&pro_micro 10 GPIO_ACTIVE_HIGH>
 	;
+
+	left_encoder: encoder_left {
+		compatible = "alps,ec11";
+		label = "LEFT_ENCODER";
+		a-gpios = <&gpio0 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		b-gpios = <&gpio0 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		resolution = <4>;
+	};
 };
