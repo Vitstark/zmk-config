@@ -29,11 +29,19 @@
 	status = "okay";
 };
 
-&i2c1 {
-	status = "okay";
+&pinctrl {
+	i2c1_default: i2c1_default {
+		group1 {
+			psels = <0x102>, /* P1.02 (SCL) */
+					<0x101>; /* P1.01 (SDA) */
+		};
+	};
+};
 
-	scl-pin = <2>;  // P1.02
-	sda-pin = <1>;  // P1.01
+&i2c1 {
+	pinctrl-0 = <&i2c1_default>;
+	pinctrl-names = "default";
+	status = "okay";
 
 	ssd1306_right: ssd1306@3c {
 		compatible = "solomon,ssd1306fb";
