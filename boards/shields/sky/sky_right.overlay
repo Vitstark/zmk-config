@@ -62,5 +62,5 @@
 };
 
 / {
-	zmk,display = &ssd1306_right;
+	zephyr,display = &ssd1306_right;
 };
