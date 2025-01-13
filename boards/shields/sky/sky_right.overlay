@@ -28,3 +28,20 @@
 &right_encoder {
 	status = "okay";
 };
+
+&i2c1 {
+	scl-gpios = <&gpio1 1 GPIO_ACTIVE_HIGH>;
+	sda-gpios = <&gpio1 2 GPIO_ACTIVE_HIGH>;
+	status = "okay";
+
+	ssd1306_right: ssd1306@3c {
+		compatible = "solomon,ssd1306fb";
+		reg = <0x3c>;
+		width = <128>;
+		height = <32>;
+	};
+};
+
+/ {
+	zmk,display = &ssd1306_right;
+};
